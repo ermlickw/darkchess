@@ -1,0 +1,127 @@
+.
+├── README.md
+├── __pycache__
+│   └── darkchess_viz_wrapper.cpython-311.pyc
+├── agents
+│   ├── __pycache__
+│   │   ├── greedy.cpython-311.pyc
+│   │   ├── greedy.cpython-39.pyc
+│   │   ├── human.cpython-311.pyc
+│   │   ├── playing_utilities.cpython-311.pyc
+│   │   ├── random_agent.cpython-311.pyc
+│   │   ├── uniform_estimator.cpython-311.pyc
+│   │   ├── updating_estimator.cpython-311.pyc
+│   │   ├── utils.cpython-311.pyc
+│   │   └── utils.cpython-39.pyc
+│   ├── despot.py
+│   ├── greedy.py
+│   ├── human.py
+│   ├── playing_utilities.py
+│   ├── pomcp.py
+│   ├── random_agent.py
+│   ├── uniform_estimator.py
+│   ├── updating_estimator.py
+│   └── utils.py
+├── darkchess_viz_wrapper.py
+├── demo.ipynb
+├── failed_environments
+│   ├── Dockerfile copy
+│   ├── algs
+│   │   ├── actor_critic.py
+│   │   ├── p4.ipynb
+│   │   ├── p5.ipynb
+│   │   ├── playgame.ipynb
+│   │   └── qlearning.py
+│   ├── alphazero
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-311.pyc
+│   │   │   ├── __init__.cpython-39.pyc
+│   │   │   ├── board_encoding.cpython-311.pyc
+│   │   │   └── board_encoding.cpython-39.pyc
+│   │   ├── board_encoding.py
+│   │   └── move_encoding
+│   │       ├── __init__.py
+│   │       ├── __pycache__
+│   │       │   ├── __init__.cpython-311.pyc
+│   │       │   ├── __init__.cpython-39.pyc
+│   │       │   ├── knightmoves.cpython-39.pyc
+│   │       │   ├── queenmoves.cpython-39.pyc
+│   │       │   ├── underpromotions.cpython-39.pyc
+│   │       │   └── utils.cpython-39.pyc
+│   │       ├── knightmoves.py
+│   │       ├── queenmoves.py
+│   │       ├── underpromotions.py
+│   │       └── utils.py
+│   ├── dark_chess_wrapper.py
+│   ├── dark_stuff.py
+│   ├── darkchess_full.py
+│   ├── docker-compose copy.yml
+│   ├── gym-chess-rust
+│   │   ├── Cargo.dev.toml
+│   │   ├── Cargo.py.toml
+│   │   ├── Cargo.toml
+│   │   ├── LICENSE.md
+│   │   ├── MANIFEST.in
+│   │   ├── README.md
+│   │   ├── gym_chess
+│   │   │   ├── __init__.py
+│   │   │   ├── envs
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── chess_v0.py
+│   │   │   │   ├── chess_v1.py
+│   │   │   │   └── chess_v2.py
+│   │   │   ├── examples
+│   │   │   │   ├── v0
+│   │   │   │   │   ├── available_moves.py
+│   │   │   │   │   ├── make_move.py
+│   │   │   │   │   ├── play_random_vs_bot.py
+│   │   │   │   │   └── play_vs_self.py
+│   │   │   │   └── v1
+│   │   │   │       ├── available_moves.py
+│   │   │   │       ├── make_move.py
+│   │   │   │       ├── play_random_vs_bot.py
+│   │   │   │       └── play_vs_self.py
+│   │   │   └── test
+│   │   │       ├── __init__.py
+│   │   │       ├── utils.py
+│   │   │       ├── v1
+│   │   │       │   ├── __init__.py
+│   │   │       │   ├── test_basic_moves.py
+│   │   │       │   ├── test_benchmark.py
+│   │   │       │   ├── test_capture_moves.py
+│   │   │       │   ├── test_castle_moves.py
+│   │   │       │   ├── test_king_moves.py
+│   │   │       │   ├── test_run_moves.py
+│   │   │       │   └── test_squares_under_attack.py
+│   │   │       └── v2
+│   │   │           ├── __init__.py
+│   │   │           ├── test_basic_moves.py
+│   │   │           ├── test_benchmark.py
+│   │   │           ├── test_capture_moves.py
+│   │   │           ├── test_castle_moves.py
+│   │   │           ├── test_king_moves.py
+│   │   │           ├── test_run_moves.py
+│   │   │           └── test_squares_under_attack.py
+│   │   ├── lint
+│   │   ├── pyproject.toml
+│   │   ├── setup.py
+│   │   └── src
+│   │       ├── lib.rs
+│   │       └── main.rs
+│   ├── gymchess
+│   ├── playgame.py
+│   ├── some_dudes_pomcp.py
+│   ├── spiel.txt
+│   ├── src
+│   │   └── __init__.py
+│   ├── test.ipynb
+│   ├── test.py
+│   └── tree.py
+├── notes.json
+├── poetry.lock
+├── project_structure.txt
+├── pyproject.toml
+└── run_game.py
+
+22 directories, 103 files

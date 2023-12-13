@@ -1,0 +1,32 @@
+This is cool. I am indeed familiar with it; it feels like a challenge that "nerd snipes" POMDP PhD students. 
+The application area is ambitious, but I think you are correct that some of the approaches we have seen in class 
+are suitable to trying it out. As this is a somewhat ambitious project (and "state of the art" performance is not expected) 
+you will have to convince me that you have "done something" by the time you are ready to submit. You should strive to avoid 
+the situation in which you have made some progress towards tackling this challenge but do not have much to show for it. Having 
+a clear metric for success would be good: is it an ELO target against an off-the-shelf solver? Is it to compare multiple solution strategies 
+for your own system? Is it to learn to play against a low-capability opponent with a "fixed" policy (that would require some learning)?
+
+
+
+It seems that learning is something you hope to avoid here, and that's reasonable, since it's a can of worms that I think would be difficult for you to deal with. 
+However, on the flip side, it is difficult to get good performance without any type of learning to help make predictions about the unseen part of the board. The MCTS 
+equivalent of this game is very hard, since modeling the full POMDP requires considering all possible states of the unseen part of the board. Instead, you might try 
+looking at something a bit more "clever"; you might want to look into a POMDP solver called DESPOT: the simple version of that system might maintain a full belief state 
+(a probability distribution over the state of the world) and samples from that distribution to get a set of possible board states, weighted by their likelihood, and then 
+uses those to determine how to act.
+
+
+
+The way that I might tackle this problem (for fun, not that this is necessarily the "correct" way to solve the problem) is by sampling possible board states given what pieces
+ still exist in unseen space and then determine how good a move is with respect to those board states, something you could get from StockFish. In the full version, I might use 
+ learning to determine the likelihood of each such sate based on competitive self-play so that I have some distribution over what I think the board might actually look like and 
+ then "play" against those boards as if I had perfect information. It's not a full belief-space planning solution, but would certainly get you *something* over naive play.
+
+
+
+You don't need to do any or all of this. Focus on trying to show *something* and let me know how it goes! I look forward to reading your report.
+
+
+
+Happy playing!
+
